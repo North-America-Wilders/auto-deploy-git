@@ -1,8 +1,7 @@
 # Auto-deploy-git
 
 ## Git push auto deploy light build
-This file describe how build an auto deploy with a git push command
-
+Ce fichier décrit comment construire un déploiement automatique "léger"
 
 <!-- 
 # ######################################################################################
