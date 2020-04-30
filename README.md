@@ -136,12 +136,12 @@ origin  https://github.com/utilisateur-a/<nomProjet>-app.git (push)
 
 ```ssh
 utilisateur-a@<id-UC> MINGW64 /c/Users/utilisateur-a/Documents/<nomProjet>-app (master)
-$git remote add production utilisateur-a@<nomServeur>:/home/node/<nomProjet>/<nomProjet>-app-deploy
+$git remote add production utilisateur-a@<nomServeur>:/home/node/<nomProjet>/<nomProjet>-app-deploy.git
 $git remote --verbose
 origin  https://github.com/utilisateur-a/<nomProjet>-app.git (fetch)
 origin  https://github.com/utilisateur-a/<nomProjet>-app.git (push)
-production      utilisateur-a@<nomServeur>:/home/node/<nomProjet>/<nomProjet>-app-deploy (fetch)
-production      utilisateur-a@<nomServeur>:/home/node/<nomProjet>/<nomProjet>-app-deploy (push)
+production      utilisateur-a@<nomServeur>:/home/node/<nomProjet>/<nomProjet>-app-deploy.git (fetch)
+production      utilisateur-a@<nomServeur>:/home/node/<nomProjet>/<nomProjet>-app-deploy.git (push)
 ```
 
 ### Essais de push des modifications apportées pour une mise à jour de la production
@@ -249,12 +249,12 @@ origin  https://github.com/utilisateur-a/<nomProjet>-api.git (push)
 
 ```ssh
 utilisateur-a@<id-UC> MINGW64 /c/Users/utilisateur-a/Documents/<nomProjet>-api (master)
-$git remote add production utilisateur-a@<nomServeur>:/home/node/<nomProjet>/<nomProjet>-api-deploy
+$git remote add production utilisateur-a@<nomServeur>:/home/node/<nomProjet>/<nomProjet>-api-deploy.git
 $git remote --verbose
 origin  https://github.com/utilisateur-a/<nomProjet>-api.git (fetch)
 origin  https://github.com/utilisateur-a/<nomProjet>-api.git (push)
-production      utilisateur-a@<nomServeur>:/home/node/<nomProjet>/<nomProjet>-api-deploy (fetch)
-production      utilisateur-a@<nomServeur>:/home/node/<nomProjet>/<nomProjet>-api-deploy (push)
+production      utilisateur-a@<nomServeur>:/home/node/<nomProjet>/<nomProjet>-api-deploy.git (fetch)
+production      utilisateur-a@<nomServeur>:/home/node/<nomProjet>/<nomProjet>-api-deploy.git (push)
 ```
 
 ### Essais de push des modifications apportées pour une mise à jour de la production
